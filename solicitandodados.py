@@ -17,8 +17,8 @@ while op:
         print(f"Nome: {nome}")
         print(f"Idade: {idade}")
         print(f"Altura: {altura}")
-        print(f"peso: {peso}")
+        print(f"peso: {peso:.1f}")
     elif decisao == 'N':
         op = False
     else:
-        print("Decisão inválida.")
+        print("Decisão inválida. Tente novamente!")
