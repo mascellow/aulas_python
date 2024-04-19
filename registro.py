@@ -46,7 +46,7 @@ while programa:
             print(f"Maior idade: {idade_maior}")
             print(f"Menor idade: {idade_menor}")
             print(f"QTD Mulheres - Salário > R$5000,00: {qtd_m}")
-            opp2 = input("Deseja voltar pro menu principal?(S/N): ").upper()
+            opp2 = input("\nDeseja voltar pro menu principal?(S/N): ").upper()
             if opp2 == "S":
                 programa_op = False
         
