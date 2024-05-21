@@ -1,0 +1,3 @@
+Nome: Harry potter,Autor: R.K Rowling,Categoria: Aventura,Preço: 55.0
+Nome: Percy Jackson,Autor: Rick Riordan,Categoria: Aventura,Preço: 50.0
+Nome: As provações de Apolo,Autor: Aventura,Categoria: Aventura,Preço: 50.0
