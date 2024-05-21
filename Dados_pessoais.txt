@@ -1,0 +1,2 @@
+Nome: Marcelo,idade: 26,Peso: 75.0,altura: 1.85
+Nome: Kamilla,idade: 25,Peso: 58.0,altura: 1.53
