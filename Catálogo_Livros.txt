@@ -3,3 +3,4 @@
 Nome: Harry Potter e a câmara secreta, Autor: J.K Rowling, Categoria: Aventura, Preço: R$85.00
 Nome: Querido John, Autor: Nicolas Sparks, Categoria: Romance, Preço: R$55.00
 Nome: Quem é você, Alaska?, Autor: John Green, Categoria: Romance, Preço: R$82.00
+Nome: Percy Jackson - O ladrão de Raios, Autor: Rick Riordan, Categoria: Aventura, Preço: R$85.00
