@@ -23,7 +23,7 @@ def salvar(livros):
         for livro in livros:
             arquivo.write(f"Nome: {livro.nome}, Autor: {livro.autor}, Categoria: {livro.categoria}, Preço: R${livro.preco:.2f}\n")
 
-def mostrarLivros():
+def ler_dados_catalogo():
     with open("Catálogo_Livros.txt", "r", encoding="utf-8")as arquivo:
         livros_cadastrados = arquivo.read()
     print(livros_cadastrados)
@@ -51,7 +51,7 @@ while True:
         case 2:
             while True:
                 limpatela()
-                mostrarLivros()
+                ler_dados_catalogo()
                 op = input("\nDeseja voltar ao menu principal?(S/N): ").upper()
                 if op == "S":
                     break
