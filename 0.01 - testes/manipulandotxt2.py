@@ -8,12 +8,12 @@ class Livros:
 
 def salvar(livros):
     with open("Catálogo_Livros.txt", "w", encoding="utf-8")as arquivo:
-        arquivo.write("=== Livros Cadastrados ===")
+        arquivo.write("=== Livros Cadastrados ===\n\n")
         for livro in livros:
-            arquivo.write(f"Nome: {livro.nome}, Autor: {livro.autor}, Categoria: {livro.categoria}, Preço: {livro.preco}")
+            arquivo.write(f"Nome: {livro.nome}, Autor: {livro.autor}, Categoria: {livro.categoria}, Preço: R${livro.preco:.2f}\n")
 livros = []
 
-for i in range(1):
+for i in range(3):
     os.system("cls || clear")
     print("=== Cadastro de livros ===\n")
     nome = input("Digite o nome do livro: ")
